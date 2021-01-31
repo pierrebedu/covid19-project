@@ -2,7 +2,7 @@
 Pour apprendre et par intérêt pour ce sujet d'actualité. 
 
 Il s'agit de prévoir le diagnostique covid19 d'un patient (5644 individus) sur la base de ses données cliniques (111 variables mixtes).
-(Dataset kaggle)
+  (Dataset kaggle)
 
 EDA:  
 - localisation des valeurs manquantes et nettoyage des colonnes peu parlantes (plus de 90% de valeurs manquantes)
