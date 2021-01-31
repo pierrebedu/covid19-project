@@ -1,7 +1,7 @@
 # covid19-project
 Pour apprendre et par intérêt pour ce sujet d'actualité. 
 
-Il s'agit de prévoir le diagnostique covid19 d'un patient (5644 individus) sur la base de ses données cliniques (111 variables mixtes).
+Il s'agit de prévoir le diagnostique covid19 de patients (5644 individus) sur la base de ses données cliniques (111 variables mixtes).
   (Dataset kaggle)
 
 EDA:  
@@ -20,4 +20,4 @@ Modèles (prise de décision en évaluant le meilleur choix à chaque étape gr�
 - pipelines aves kbest features, pca, expansion polynomiale pour adresser l'overfitting ou l'underfitting selon le cas
 - optimisation du meilleur modèle par un gridsearch et mieux encore : randomizedsearch
 - courbes precision/recall pour aider au meilleur choix de seuill selon les contraintes métier 
-- bonne réussite globale :f1 > 0.6 et recall > 0.75
+- bonne réussite globale : f1 > 0.6 et recall > 0.75
