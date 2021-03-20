@@ -6,7 +6,7 @@ Attempt to predict covid-19 diagnostic on the basis of the patient's clinical da
 EDA file :  
 - localisation of NaNs and cleaning of empty columns (more than 90% of missing data)
 - relationship age/target
-- relationship blood data/target. Data distribution of quantitative features regarding to thier class (positive or negative)
+- relationship blood data/target. Data distribution of quantitative features regarding to their class (positive or negative)
 - relationship viral tests/target. confusion matrix over qualitatives features.
 - blood data features correlation
 
