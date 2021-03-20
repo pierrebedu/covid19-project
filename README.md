@@ -1,23 +1,20 @@
-# covid19-project
-Pour apprendre et par intérêt pour ce sujet d'actualité. (Dataset kaggle)
+PERSONNAL PROJECT. By personnal interest and to learn!
+Attempt to predict covid-19 diagnostic on the basis of the patient's clinical data. Classification task  
 
-Il s'agit de prévoir le diagnostique covid19 de patients (5644 individus) sur la base de ses données cliniques (111 variables mixtes).
-  
+EDA file :  
+- localisation of NaNs and cleaning of empty columns (more than 90% of missing data)
+- relationship age/target
+- relationship blood data/target. Data distribution of quantitative features regarding to thier class (positive or negative)
+- relationship viral tests/target. confusion matrix over qualitatives features.
+- blood data features correlation
 
-EDA:  
-- localisation des valeurs manquantes et nettoyage des colonnes peu parlantes (plus de 90% de valeurs manquantes)
-- lien target/ âge
-- lien target/données sanguines: observation de la distribution des variables quantitatives selon la classe 
-- lien target/tests viraux : matrices de confusion des variables qualitatives 
-- observation de la corrélation des variables sanguines
-
-Modèles (prise de décision en évaluant le meilleur choix à chaque étape grâce à unique indicateur chiffré): 
-- encodage des variables qualitatives
-- imputation sur les valeurs manquantes (médiane, moyenne, zéro, drop, etc...)
-- essais de feature engineering
-- implémentation d'une fonction d'évaluation de la performance (à base de score f1) qui donne aussi les courbes d'apprentissage.
-- comparaison de nombreux modèles (régression logistique, naïve bayes, arbres, forêts, adaboost, SVM, voisins, xgboost)
-- pipelines aves kbest features, PCA, expansion polynomiale pour adresser l'overfitting ou l'underfitting selon le cas
-- optimisation du meilleur modèle par un gridsearch (et mieux encore : randomizedsearch)
-- courbes precision/recall pour aider au meilleur choix de seuill selon les contraintes métier 
-- bonne réussite globale : f1 > 0.6 et recall > 0.75
+Modèles file: every decision is taken by looking at a unique numeric indicator
+- qualitative features encoding
+- imputation of missing values attempts
+- feature engineering attempts
+- f1 score based performance function that also gives learning curves
+- numerous modeles comparison (régression logistique, naïve bayes, arbres, forêts, adaboost, SVM, voisins, xgboost)
+- pipelines : kbest features, PCA, polynomial expansion to adress overfitting or underfitting depending on the modele
+- hyperparameters optimization by gridsearch (or best : randomizedsearch)
+- precision/recall curves to find the best threshold 
+- good global result : f1 > 0.6 et recall > 0.75
