@@ -1,4 +1,6 @@
-PERSONNAL PROJECT. By personnal interest and to learn!
+PERSONNAL PROJECT. 
+By personnal interest for the epidemic situation and to learn!
+
 Attempt to predict covid-19 diagnostic on the basis of the patient's clinical data. Classification task  
 
 EDA file :  
