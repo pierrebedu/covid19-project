@@ -8,7 +8,7 @@ EDA file :
 - relationship age/target
 - relationship blood data/target. Data distribution of quantitative features regarding to their class (positive or negative)
 - relationship viral tests/target. confusion matrix over qualitatives features.
-- blood data features correlation
+- blood data features' correlation
 
 Modèles file: every decision is taken by looking at a unique numeric indicator
 - qualitative features encoding
