@@ -1,12 +1,11 @@
 PERSONNAL PROJECT. 
 By personnal interest for the epidemic situation and to learn!
-
 Attempt to predict covid-19 diagnostic on the basis of the patient's clinical data. Classification task.  
 
 ###########################################################################
 
 HOW TO USE THIS?
-- download the dataset
+- download the dataset https://www.kaggle.com/einsteindata4u/covid19
 - launch the EDA and modeles files in a Jupyter environnement
 
 ##############################################################################
