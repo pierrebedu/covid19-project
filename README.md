@@ -2,6 +2,7 @@ PERSONNAL PROJECT.
 By personnal interest for the epidemic situation and to learn!
 Attempt to predict covid-19 diagnostic on the basis of the patient's clinical data. Classification task.  
 
+// LOTS TO IMPROVE. BEGINNER'S WORK//
 ###########################################################################
 
 HOW TO USE THIS?
