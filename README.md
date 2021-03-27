@@ -17,7 +17,7 @@ EDA file :
 - relationship viral tests/target. confusion matrix over qualitatives features.
 - blood data features' correlation
 
-Modèles file: every decision is taken with a unique numeric indicator
+Modeles file: every decision is taken with a unique numerical indicator
 - qualitative features encoding
 - imputation of missing values attempts
 - feature engineering attempts
