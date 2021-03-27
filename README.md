@@ -4,11 +4,13 @@ By personnal interest for the epidemic situation and to learn!
 Attempt to predict covid-19 diagnostic on the basis of the patient's clinical data. Classification task.  
 
 ###########################################################################
+
 HOW TO USE THIS?
 - download the dataset
 - launch the EDA and modeles files in a Jupyter environnement
 
 ##############################################################################
+
 EDA file :  
 - localisation of NaNs and cleaning of empty columns (more than 90% of missing data)
 - relationship age/target
