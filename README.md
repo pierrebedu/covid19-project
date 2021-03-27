@@ -22,7 +22,7 @@ Modèles file: every decision is taken with a unique numeric indicator
 - qualitative features encoding
 - imputation of missing values attempts
 - feature engineering attempts
-- f1 score based performance function, that also gives learning curves
+- f1 score-based performance function, that also gives learning curves
 - numerous modeles comparison (logistic regression, naïve bayes, trees, forests, adaboost, SVM, KNN, xgboost)
 - pipelines : kbest features, PCA, polynomial expansion to adress overfitting or underfitting depending on the modele
 - hyperparameters optimization by gridsearch (or best : randomizedsearch)
